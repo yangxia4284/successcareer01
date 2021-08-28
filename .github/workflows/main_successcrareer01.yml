@@ -35,5 +35,5 @@ jobs:
         app-name: successcrareer01
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88E28B2AEBC0471F8C156F608EDD023D }}
-        package: ${{env.DOTNET_ROOT}}/myapp
+        package: ${{env.DOTNET_ROOT}}/myapp/webapp
 
